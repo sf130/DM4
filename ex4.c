@@ -23,9 +23,9 @@ int main(){
    
    //勝敗を決めるパート
    if(total > 7){
-     printf("you won!\n");
+     printf("%s won!\n",str);
    }else{
-     printf("you lost!\n");
+     printf("%s lost!\n",str);
    }
    
    return 0;
